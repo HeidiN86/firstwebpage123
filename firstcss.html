@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice CSS</title>
+    <style>
+    <!--embedded css, all elements in the document take the same style given-->
+        body {
+          background-color:rgb(171, 80, 80);
+        }
+        h1 {
+          color: rgb(5, 5, 175);
+        }
+        p {
+            color:rgb(1, 120, 133);
+            font-size: medium;
+            margin-left: 30px;
+            margin-bottom: 40px;
+        }
+        </style>
+</head>
+<body>
+    <!--inline css, only affects one element, avoid using that, always overrides embedded css-->
+    <h1 style="color:rgb(121, 8, 8); text-align:left;">This is my heading</h1>
+    <p style="color:rgb(249, 90, 90); font-size: larger; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">This is a paragraph, lot of text here.</p>
+    <h1>This is a new heading</h1>
+    <p>Another long paragraph.</p>
+    <p>Yet another paragraph.</p>
+</body>
+</html>
