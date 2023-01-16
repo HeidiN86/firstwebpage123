@@ -1,0 +1,43 @@
+html {
+    background-color: rgb(2, 95, 95);
+}
+
+p, article {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:  rgb(249, 249, 123);
+}
+
+h1 {
+    font-size: 16px;
+    color: rgb(255, 65, 65);
+    border-bottom: 2px solid rgb(251, 141, 141);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 16px;
+    color: rgb(242, 253, 95);
+}
+a:link, header, ul, li {
+    color: rgb(249, 172, 172);
+}
+
+a:hover {
+    color:rgb(139, 180, 236);
+}
+
+/* image fixed */
+img {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(253, 128, 128);
+    padding: 10px;
+    width: 250px;
+    opacity: 0.5;
+}
+
+footer {
+    color:rgb(163, 152, 152);
+}
