@@ -4,13 +4,23 @@ html {
 
 section { /* I want to use the flex box for the section part of the exercise 4 page */
     display: flex;
-    /* flex-wrap: wrap; --- when the content in some boxes is very long */
+    flex-direction:column;
+        /* flex-wrap: wrap; --- when the content in some boxes is very long */
 }
-/*
+
+.main {
+    display: flex;
+}
+
+sidebar {
+    background-color: white;
+    margin: 10px;
+    min-width:200px;
+}
 article {
     flex: 1;
 }
-*/
+
 article:nth-of-type(2) {
     flex:3;
 }
@@ -23,7 +33,7 @@ article:nth-of-type(2) {
 
 .flexGrowContainer {
     display: flex;
-    align-items: stretch;
+    /*align-items: stretch;*/
     background-color: blueviolet;
 }
 p {
